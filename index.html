@@ -8,10 +8,13 @@
 </style>
 </head>
 <body>
+<audio src="https://makra.wtf/assets/misc/Ambience.mp3"></audio>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Text Warfare.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Text Warfare" startnode="1" creator="Twine" creator-version="2.3.16" ifid="67FE95B0-79B6-42B4-9BE2-11D9B32EFF72" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">var audio = new Audio("https://makra.wtf/assets/misc/Ambience.mp3");
-audio.loop = true;
-audio.play();
+<tw-storydata name="Text Warfare" startnode="1" creator="Twine" creator-version="2.3.16" ifid="67FE95B0-79B6-42B4-9BE2-11D9B32EFF72" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
 </script><tw-passagedata pid="1" name="Welcome to the Battle for Time" tags="" position="1001,220" size="100,100">Welcome to the The Text Warfare.
 [[Begin Story]]
 &lt;audio src = &quot;https://drive.google.com/uc?export=download&amp;id=1gVEmi8opveAi0pcEJsxFYFaOcCAAm-63&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="2" name="Begin Story" tags="" position="1001,370" size="100,100">You wake up and check the time on your wrist watch. Then head over to your mess tent. It&#39;s raining and the war is on.
